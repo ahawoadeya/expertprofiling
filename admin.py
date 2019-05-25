@@ -1,5 +1,5 @@
 from django.contrib import admin
-from users.models import Education, Industry
+from.models import Account, Experience, Media
 
-admin.site.register(Education)
-admin.site.register(Industry)
+admin.site.register(Experience)
+admin.site.register(Media)
